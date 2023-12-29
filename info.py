@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21956488'))
 API_HASH = environ.get('API_HASH', '812529f879f06436925c7d62eb49f5d1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6726031505:AAEM2q-VJOqql7_LYBX-uRtcQMtg5b0lA2U")  # Please Don`t remove dev credit 
+BOT_TOKEN = environ.get('BOT_TOKEN', "6530686749:AAGBx7X3K1hRZXu4mG6BKgzLnNPF_8-Pnh4")  # Please Don`t remove dev credit 
                                                                                         # Vansh-Yadav TG-@None_090 contact paid repo editing and buy
 
 # Bot settings
@@ -29,7 +29,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/001e2730fda71c238e
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6232570935 5977931010').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002074610387').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6232570935 5977931010').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6232570935 5977931010').split()]
@@ -64,7 +64,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviesofficialchannel0')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HowToDownloadsMovie')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ✫Eᴋᴀᴍᴘʀᴇᴇᴛ✫')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002062708890'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002110971750'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
@@ -78,7 +78,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002002236835')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
