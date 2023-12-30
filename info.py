@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21956488'))
-API_HASH = environ.get('API_HASH', '812529f879f06436925c7d62eb49f5d1')
+API_ID = int(environ.get('API_ID', '24004349'))
+API_HASH = environ.get('API_HASH', '5aabfb11c262b17d568d828a3100f296')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6530686749:AAGBx7X3K1hRZXu4mG6BKgzLnNPF_8-Pnh4")  # Please Don`t remove dev credit 
                                                                                         # Vansh-Yadav TG-@None_090 contact paid repo editing and buy
 
@@ -49,7 +49,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'b53e4769ab3cc30124a32cb9c27496c7ddaddecc')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'gplinks.in')
