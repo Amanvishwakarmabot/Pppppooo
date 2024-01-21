@@ -46,7 +46,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('• Oᴡɴᴇʀ •', callback_data='owner'),
+                    InlineKeyboardButton('• 𝑬𝒂𝒓𝒏 𝒎𝒐𝒏𝒆𝒚 💰 •', callback_data='owner'),
                     InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', callback_data='munnubhai')
                 ],[
                     InlineKeyboardButton('❗❗ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='disclaimer')
@@ -105,7 +105,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('• Oᴡɴᴇʀ •', callback_data='owner'),
+                    InlineKeyboardButton('• 𝑬𝒂𝒓𝒏 𝒎𝒐𝒏𝒆𝒚 💰 •', callback_data='owner'),
                     InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', callback_data='munnubhai')
                 ],[
                     InlineKeyboardButton('❗❗ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='disclaimer')
