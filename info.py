@@ -44,7 +44,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://FREE_gf:FREE_gf@cluster0.xcn3xqi.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ranjuvishwakarma50:aman@cluster0.mcxsbbz.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -59,7 +59,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/LootshopsLootshops')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+X3uoMkIHhco1YTY1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviesofficialchannel0')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HowToDownloadsMovie')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
