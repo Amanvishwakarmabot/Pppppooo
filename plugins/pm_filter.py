@@ -1638,10 +1638,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "munnubhai":
         buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
-            InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ', url=GRP_LNK)
+            InlineKeyboardButton('𝑺𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒀𝑻 𝒄𝒉𝒂𝒏𝒏𝒆𝒍', url='https://www.youtube.com/')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
+            InlineKeyboardButton('𝑮𝒓𝒐𝒖𝒑', url='https://t.me/+X3uoMkIHhco1YTY1'),
+            InlineKeyboardButton('𝑪𝒉𝒂𝒏𝒏𝒆𝒍', url='https://t.me/Latestmoviesupdates0')
+        ],[
+            InlineKeyboardButton('𝑺𝒖𝒑𝒑𝒐𝒓𝒕', url='https://t.me/+cZGisR7lHeg1ZDdl'),
+            InlineKeyboardButton('𝑼𝒑𝒅𝒂𝒕𝒆', url='https://t.me/Moviesofficialchannel0')
+        ],[
+            InlineKeyboardButton('𝑩𝒂𝒄𝒌', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
