@@ -201,8 +201,28 @@ Hᴇʟᴘ : <b>Sᴇᴛᴛɪɴɢꜱ</b>
 
     OWNER_TXT = """<b>
 <----------------------->
-ᴏᴡɴᴇʀ ɴᴀᴍᴇ = Aman vishwakarma
-Pᴇʀᴍᴀɴᴇɴᴛ Dᴍ ʟɪɴᴋ = <a href="https://t.me/BOT_OWNER26">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+Hey My Friend 
+
+
+ Now you can earn money on Telegram too.
+
+ You must have 1 group to earn money by telegram.
+ If you have a group, you can earn money by adding our bot to your group.
+
+ The more members you have in your group, the higher your income will be.
+
+ How and what to do
+
+ Step 1: Administer this THALAPATHY-FILTER-BOT bot to your group
+
+ Step 2: Add your website and API
+
+ Exp: /shortlink gplinks.in 4b392f8eb6ad711fbe58
+
+
+Also your tutorial will be Added Your Group...
+
+🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/BOT_OWNER26'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>
 <-----------------------></b>"""
 
     HUMAN_TXT = """<b>⚡ Gʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟs & ɪɴғᴏ ⚡
