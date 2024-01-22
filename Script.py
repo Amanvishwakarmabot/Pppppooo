@@ -7,7 +7,7 @@ class script(object):
     HELP_TXT = """<b>Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
  
     ABOUT_TXT = """
-<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Movie_090_bot">🇾 🇹 🇳 🇴 🇻 🇮 🇪 🇸 🇭 🇴 🇲 🇪</a>
+<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Movie_090_bot">YD Aᴜᴛᴏ Bᴏᴛ²™</a>
 ‣ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/BOT_OWNER26">Aman-vishwakarma</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
