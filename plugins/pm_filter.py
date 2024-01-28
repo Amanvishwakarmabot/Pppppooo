@@ -1687,106 +1687,128 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         ) 
+    
     elif query.data == "check":
         buttons = [[
-            InlineKeyboardButton('PLAN 1', callback_data='plan1'), 
-            InlineKeyboardButton('PLAN 2', callback_data='plan2'), 
-            InlineKeyboardButton('PLAN 3', callback_data='plan3') 
+            InlineKeyboardButton('•​ғʀᴇᴇ ᴛʀɪᴀʟ•​', callback_data='1plan')
         ],[
-            InlineKeyboardButton('Bᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='kushal'), 
+            InlineKeyboardButton('•ʙʀᴏɴᴢᴇ•​', callback_data='2plan'), 
+            InlineKeyboardButton('•ꜱɪʟᴠᴇʀ•​', callback_data='3plan')
+        ],[
+            InlineKeyboardButton('•ɢᴏʟᴅ•​', callback_data='4plan'), 
+            InlineKeyboardButton('•​ᴘʟᴀᴛɪɴᴜᴍ•​', callback_data='5plan')
+        ],[
+            InlineKeyboardButton('•​ᴅɪᴀᴍᴏɴᴅ•​', callback_data='6plan'), 
+            InlineKeyboardButton('•ᴏᴛʜᴇʀ•​', callback_data='7plan')
+        ],[
+            InlineKeyboardButton('⇌Bᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ⇌', callback_data='start'), 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="■ □ □"
+            text="● ◌ ◌"
         )
         await query.message.edit_text(
-            text="■ ■ □"
+            text="● ● ◌"
         )
         await query.message.edit_text(
-            text="■ ■ ■"
+            text="● ● ●"
         )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/8dde130dfe481641acd50.jpg")
+            InputMediaPhoto(random.choice(PICS))
         ) 
         await query.message.edit_text(
             text=script.CHECK_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "plan1":
+        ) 
+
+    elif query.data == "1plan":
         buttons = [[
-            InlineKeyboardButton('sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ', url="https://t.me/BOT_OWNER26"), 
+            InlineKeyboardButton('🔱ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʟᴀɴ', url="https://t.me/BOT_OWNER26"), 
         ],[
-            InlineKeyboardButton('Bᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='start')
+            InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='7plan'),
+            InlineKeyboardButton('1/7', callback_data='start'),
+            InlineKeyboardButton('ɴᴇxᴛ⪢', callback_data='2plan')
+            ],[
+            InlineKeyboardButton('⇌Bᴀᴄᴋ⇌', callback_data='check')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="■ □ □"
+            text="● ◌ ◌"
         )
         await query.message.edit_text(
-            text="■ ■ □"
+            text="● ● ◌"
         )
         await query.message.edit_text(
-            text="■ ■ ■"
+            text="● ● ●"
         )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/8dde130dfe481641acd50.jpg")
+            InputMediaPhoto(random.choice(PICS))
         ) 
         await query.message.edit_text(
             text=script.PLAN1_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         ) 
-    elif query.data == "plan2":
+
+    elif query.data == "2plan":
         buttons = [[
-            InlineKeyboardButton('sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ', url="https://t.me/BOT_OWNER26"), 
-        ],[  
-            InlineKeyboardButton('Bᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='start')                   
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data="amanji"), 
+        ],[
+            InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='1plan'),
+            InlineKeyboardButton('2/7', callback_data='start'),
+            InlineKeyboardButton('ɴᴇxᴛ⪢', callback_data='3plan')
+            ],[
+            InlineKeyboardButton('⇌Bᴀᴄᴋ⇌', callback_data='check')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="■ □ □"
+            text="● ◌ ◌"
         )
         await query.message.edit_text(
-            text="■ ■ □"
+            text="● ● ◌"
         )
         await query.message.edit_text(
-            text="■ ■ ■"
+            text="● ● ●"
         )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/8dde130dfe481641acd50.jpg")
+            InputMediaPhoto(random.choice(PICS))
         ) 
         await query.message.edit_text(
             text=script.PLAN2_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         ) 
-    elif query.data == "plan3":
+    elif query.data == "3plan":
         buttons = [[
-            InlineKeyboardButton('sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ', url="https://t.me/BOT_OWNER26"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data="amanji"), 
         ],[
-            InlineKeyboardButton('Bᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='start')
+            InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='2plan'),
+            InlineKeyboardButton('3/7', callback_data='start'),
+            InlineKeyboardButton('ɴᴇxᴛ⪢', callback_data='4plan')
+            ],[
+            InlineKeyboardButton('⇌Bᴀᴄᴋ⇌', callback_data='check')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="■ □ □"
+            text="● ◌ ◌"
         )
         await query.message.edit_text(
-            text="■ ■ □"
+            text="● ● ◌"
         )
         await query.message.edit_text(
-            text="■ ■ ■"
+            text="● ● ●"
         )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/8dde130dfe481641acd50.jpg")
+            InputMediaPhoto(random.choice(PICS))
         ) 
         await query.message.edit_text(
             text=script.PLAN3_TXT,
