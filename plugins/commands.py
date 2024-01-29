@@ -49,12 +49,10 @@ async def start(client, message):
                     InlineKeyboardButton('• 𝑬𝒂𝒓𝒏 𝒎𝒐𝒏𝒆𝒚 💰 •', callback_data='owner'),
                     InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', callback_data='munnubhai')
                 ],[
-                    InlineKeyboardButton('❗❗ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='disclaimer')
-                ],[
                     InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🔰 Jᴏɪɴ Pʀᴇᴍɪᴜᴍ Aᴅs ғʀᴇᴇ ᴍᴏᴠɪᴇ 🔰', callback_data='check') 
+                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='check') 
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_text("👀")
@@ -108,12 +106,10 @@ async def start(client, message):
                     InlineKeyboardButton('• 𝑬𝒂𝒓𝒏 𝒎𝒐𝒏𝒆𝒚 💰 •', callback_data='owner'),
                     InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', callback_data='munnubhai')
                 ],[
-                    InlineKeyboardButton('❗❗ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='disclaimer')
-                ],[
                     InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                   ],[
-                    InlineKeyboardButton('🔰 Jᴏɪɴ Pʀᴇᴍɪᴜᴍ Aᴅs ғʀᴇᴇ ᴍᴏᴠɪᴇ 🔰', callback_data='check') 
+                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='check') 
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
