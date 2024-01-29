@@ -1534,12 +1534,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('• 𝑬𝒂𝒓𝒏 𝒎𝒐𝒏𝒆𝒚 💰 •', callback_data='owner'),
                     InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', callback_data='munnubhai')
                 ],[
-                    InlineKeyboardButton('❗❗ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='disclaimer')
-                ],[
                     InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🔰 Jᴏɪɴ Pʀᴇᴍɪᴜᴍ Aᴅs ғʀᴇᴇ ᴍᴏᴠɪᴇ 🔰', callback_data='check') 
+                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='check') 
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1993,6 +1991,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔭 Rᴇɴᴅᴇʀɪɴɢ Sᴛᴀᴛᴜs ☁️', callback_data='fixing'),
         ],[
+            InlineKeyboardButton('❗❗ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='disclaimer'),
             InlineKeyboardButton('⚡️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ⚡️', callback_data='source'),
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
