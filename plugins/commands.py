@@ -993,10 +993,7 @@ async def offshortlink(bot, message):
         grpid = message.chat.id
         title = message.chat.title
     else:
-        return
-    await save_group_settings(grpid, 'is_shortlink', False)
-    # ENABLE_SHORTLINK = False
-    return await message.reply_text("Successfully disabled shortlink")
+        
     
 @Client.on_message(filters.command("setshortlinkon") & filters.user(ADMINS))
 async def onshortlink(bot, message):
@@ -1086,6 +1083,21 @@ async def settutorial(bot, message):
         await reply.edit_text(f"<b>Successfully Added Tutorial\n\nHere is your tutorial link for your group {title} - <code>{tutorial}</code></b>")
     else:
         return await message.reply("<b>You entered Incorrect Format\n\nFormat: /set_tutorial your tutorial link</b>")
+        
+@Client.on_message(filters.command("plan"))
+async def plan(bot, message):
+    if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
+        buttons = [[ InlineKeyboardButton('Bᴜʏ Pʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26") ] ]
+    
+    chat_type = message.chat.type
+    if chat_type == enums.ChatType.PRIVATE:
+        return await message.reply_text("🎖️ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs\n\n● 10₹ ➛ ʙʀᴏɴᴢᴇ ᴘʟᴀɴ » 7 ᴅᴀʏꜱ\n● 60₹ ➛ ꜱɪʟᴠᴇʀ ᴘʟᴀɴ » 30 ᴅᴀʏꜱ\n● 180₹ ➛ ɢᴏʟᴅ ᴘʟᴀɴ » 90 ᴅᴀʏꜱ\n● 250₹ ➛ ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ » 180 ᴅᴀʏꜱ\n● 400₹ ➛ ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ » 365 ᴅᴀʏꜱ\n\n💵 ᴜᴘɪ ɪᴅ - <code>amanvishwakarma2626@ibl</code>\n\n⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ: /myplan\n\n‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.")
+    if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
+        buttons = [[ InlineKeyboardButton('Bᴜʏ Pʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26") ] ]
+    
+    elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
+        grpid = message.chat.id
+        title = message.chat.title
         
 @Client.on_message(filters.command("restart") & filters.user(ADMINS))
 async def stop_button(bot, message):
