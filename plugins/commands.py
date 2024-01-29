@@ -988,7 +988,7 @@ async def offshortlink(bot, message):
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
-    else:
+    
         
     
 @Client.on_message(filters.command("setshortlinkon") & filters.user(ADMINS))
